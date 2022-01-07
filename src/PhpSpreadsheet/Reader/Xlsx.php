@@ -886,7 +886,7 @@ class Xlsx extends BaseReader
                                         $node->addAttribute($attr->getName(), $attr);
                                     }
                                     $node->addAttribute('sqref', $item->children('xm', true)->sqref);
-                                    $node->addChild('formula1', $item->formula1->children('xm', true)->f);
+//                                     $node->addChild('formula1', $item->formula1->children('xm', true)->f);
                                 }
                             }
 
